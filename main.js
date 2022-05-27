@@ -1,16 +1,12 @@
 // 1
 // console.log(h1_id.innerText)
 
-
-
 // 2
 // document.write(h3_.textContent+"my dom app");
-
 
 // 3
 // var collection = document.getElementsByClassName("textE");
 // console.log(collection);
-
 
 // 4
 // console.log(collection[1]);
@@ -23,11 +19,10 @@
 
 // 7
 // function getNameFromUser() {
-    //  var numUser =+prompt()
+//  var numUser =+prompt()
 //   document.write("<h2>"+userNum+"</h2>")
 // }
 // getNameFromUser()
-
 
 // 8
 // function getFromUserNumAndColor() {
@@ -39,7 +34,17 @@
 // }
 // getFromUserNumAndColor()
 
-
-
-
 // 9
+// function getTextAndTagName() {
+//   var userTag = prompt("please enter a tag");
+//   var userText = prompt("please enter text.");
+//   document.write(userTag + " " + userText + " " + userTag);
+// }
+// getTextAndTagName();
+
+// 10
+function getInputFromUser() {
+ var userInput=prompt("please enter email");
+
+}
+getInputFromUser()
