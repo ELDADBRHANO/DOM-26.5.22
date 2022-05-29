@@ -43,8 +43,26 @@
 // getTextAndTagName();
 
 // 10
-function getInputFromUser() {
- var userInput=prompt("please enter email");
+// function getInputFromUser() {
+//  var userInput=prompt("please enter email");
 
+// }
+// getInputFromUser()
+
+
+
+
+// 13
+function userInfo() {
+ var userIn={
+   name:prompt("please enter first name"),
+   lastName:prompt("please enter last name"),
+   age:prompt("please enter your age")
+  } 
+  console.log(userIn)
+ if(userIn.age > 18){
 }
-getInputFromUser()
+alert("you are over 18.");
+}
+userInfo()
+
