@@ -49,20 +49,69 @@
 // }
 // getInputFromUser()
 
+// 11
+// function mySome(text, group) {
+//  var myGroup= document.getElementsByClassName(group)
+//  for(var i =0; i < myGroup.length; i++){
+//    myGroup[i].innerText=text
+//  }
+// }
+// mySome("eldad","batel")
 
-
+// 12
+// function getP() {
+//   var myP =document.getElementsByTagName("p")
+//   for(var i = 0; i < myP.length; i++){
+//     myP[i].innerHTML = "<span>"+"hello-world"+"</span>";
+//   }
+// }
+// getP()
 
 // 13
-function userInfo() {
- var userIn={
-   name:prompt("please enter first name"),
-   lastName:prompt("please enter last name"),
-   age:prompt("please enter your age")
-  } 
-  console.log(userIn)
- if(userIn.age > 18){
-}
-alert("you are over 18.");
-}
-userInfo()
+// function userInfo() {
+//  var userIn={
+//    name:prompt("please enter first name"),
+//    lastName:prompt("please enter last name"),
+//    age:prompt("please enter your age")
+//   }
+//   console.log(userIn)
+//  if(userIn.age > 18){
+// }
+// alert("you are over 18.");
+// }
+// userInfo()
 
+// 14
+// function getMovie() {
+//   var movie = {
+//     name: prompt("whats the name of the movie?"),
+//     numOfViews: prompt("how many views does the movie have?"),
+//     year: prompt("what year the movie was realesed?"),
+//     pic: prompt("pic of the movie"),
+//   };
+//   var pict = {
+//     src: movie.pic
+//   };
+//   document.write(
+//     "<h1>" +
+//       movie.name +
+//       "</h1>" +
+//       "<h2>" +
+//       movie.numOfViews +
+//       "</h2>" +
+//       "<h3>" +
+//       movie.year +
+//       "</h3>" +
+//       "<img src= pict.src >"
+//   );
+// }
+// getMovie();
+
+// 15
+// var worker ={
+//   privateName:prompt("enter your private name"),
+//   lastName:prompt("enter your last name"),
+//   email:prompt("please enter your email"),
+//   section:prompt("please enter your section at work.")
+// }
+// document.write("<h1>"+worker.privateName+"</h1>"+"/"+"<mark>"+worker.lastName+"</mark>"+"/"+"<i>"+worker.email+"</i>"+"/"+worker.section)
