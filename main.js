@@ -69,11 +69,11 @@
 
 
 // 10
-// function getInputFromUser() {
-//  var userInput=prompt("please enter email");
-
-// }
-// getInputFromUser()
+function getInputFromUser() {
+var userInput=prompt("please enter input type");
+document.body.textContent=+"<input type="+userInput+"/>"
+}
+getInputFromUser()
 
 
 
@@ -190,8 +190,8 @@
 //     var bulding = {
 //       constrName: prompt("what the name of the constructor?"),
 //       companyName: prompt("what is the name of the companey?"),
-//       numOfFloors: prompt("how many floor in the building?"),
-//       numOfApa: prompt("how many APA in the building?"),
+//       numOfFloors: +prompt("how many floor in the building?"),
+//       numOfApa: +prompt("how many APA in the building?"),
 //     };
 //     document.write(
 //       "<h1>" +
@@ -204,13 +204,11 @@
 //         " " +
 //         "<strong>" +
 //         bulding.numOfFloors +
-//         +" " +
-//         "floors" +
-//         "</strong>" +
 //         " " +
+//         "</strong>" +
+//         " "+
 //         "<span>" +
 //         bulding.numOfApa +
-//         +"apartments" +
 //         " " +
 //         "</span>"
 //     );
