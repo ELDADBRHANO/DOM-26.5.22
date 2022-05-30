@@ -1,21 +1,37 @@
 // 1
 // console.log(h1_id.innerText)
 
+
+
+
 // 2
 // document.write(h3_.textContent+"my dom app");
+
+
+
 
 // 3
 // var collection = document.getElementsByClassName("textE");
 // console.log(collection);
 
+
+
+
 // 4
 // console.log(collection[1]);
+
+
+
 
 // 5
 // console.log(collection[2].innerText);
 
+
+
 // 6
 // console.log(document.getElementsByClassName("h1_same"))
+
+
 
 // 7
 // function getNameFromUser() {
@@ -23,6 +39,8 @@
 //   document.write("<h2>"+userNum+"</h2>")
 // }
 // getNameFromUser()
+
+
 
 // 8
 // function getFromUserNumAndColor() {
@@ -34,6 +52,10 @@
 // }
 // getFromUserNumAndColor()
 
+
+
+
+
 // 9
 // function getTextAndTagName() {
 //   var userTag = prompt("please enter a tag");
@@ -42,12 +64,21 @@
 // }
 // getTextAndTagName();
 
+
+
+
+
 // 10
 // function getInputFromUser() {
 //  var userInput=prompt("please enter email");
 
 // }
 // getInputFromUser()
+
+
+
+
+
 
 // 11
 // function mySome(text, group) {
@@ -58,6 +89,11 @@
 // }
 // mySome("eldad","batel")
 
+
+
+
+
+
 // 12
 // function getP() {
 //   var myP =document.getElementsByTagName("p")
@@ -66,6 +102,11 @@
 //   }
 // }
 // getP()
+
+
+
+
+
 
 // 13
 // function userInfo() {
@@ -80,6 +121,11 @@
 // alert("you are over 18.");
 // }
 // userInfo()
+
+
+
+
+
 
 // 14
 // function getMovie() {
@@ -107,11 +153,67 @@
 // }
 // getMovie();
 
+
+
+
+
 // 15
-// var worker ={
-//   privateName:prompt("enter your private name"),
-//   lastName:prompt("enter your last name"),
-//   email:prompt("please enter your email"),
-//   section:prompt("please enter your section at work.")
+// var worker = {
+//   privateName: prompt("enter your private name"),
+//   lastName: prompt("enter your last name"),
+//   email: prompt("please enter your email"),
+//   section: prompt("please enter your section at work."),
+// };
+// document.write(
+//   "<h1>" +
+//     worker.privateName +
+//     "</h1>" +
+//     "/" +
+//     "<mark>" +
+//     worker.lastName +
+//     "</mark>" +
+//     "/" +
+//     "<i>" +
+//     worker.email +
+//     "</i>" +
+//     "/" +
+//     worker.section
+// );
+
+
+
+
+// 16
+// function printConstructorBuilding() {
+//   var numOfUser = prompt("please enter some random num");
+//   for (var i = 0; i < numOfUser; i++) {
+//     var bulding = {
+//       constrName: prompt("what the name of the constructor?"),
+//       companyName: prompt("what is the name of the companey?"),
+//       numOfFloors: prompt("how many floor in the building?"),
+//       numOfApa: prompt("how many APA in the building?"),
+//     };
+//     document.write(
+//       "<h1>" +
+//         bulding.constrName +
+//         "</h1>" +
+//         " " +
+//         "<h2>" +
+//         bulding.companyName +
+//         "</h2>" +
+//         " " +
+//         "<strong>" +
+//         bulding.numOfFloors +
+//         +" " +
+//         "floors" +
+//         "</strong>" +
+//         " " +
+//         "<span>" +
+//         bulding.numOfApa +
+//         +"apartments" +
+//         " " +
+//         "</span>"
+//     );
+//   }
 // }
-// document.write("<h1>"+worker.privateName+"</h1>"+"/"+"<mark>"+worker.lastName+"</mark>"+"/"+"<i>"+worker.email+"</i>"+"/"+worker.section)
+// printConstructorBuilding();
