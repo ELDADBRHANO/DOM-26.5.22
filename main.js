@@ -1,37 +1,21 @@
 // 1
 // console.log(h1_id.innerText)
 
-
-
-
 // 2
 // document.write(h3_.textContent+"my dom app");
-
-
-
 
 // 3
 // var collection = document.getElementsByClassName("textE");
 // console.log(collection);
 
-
-
-
 // 4
 // console.log(collection[1]);
-
-
-
 
 // 5
 // console.log(collection[2].innerText);
 
-
-
 // 6
 // console.log(document.getElementsByClassName("h1_same"))
-
-
 
 // 7
 // function getNameFromUser() {
@@ -39,8 +23,6 @@
 //   document.write("<h2>"+userNum+"</h2>")
 // }
 // getNameFromUser()
-
-
 
 // 8
 // function getFromUserNumAndColor() {
@@ -52,10 +34,6 @@
 // }
 // getFromUserNumAndColor()
 
-
-
-
-
 // 9
 // function getTextAndTagName() {
 //   var userTag = prompt("please enter a tag");
@@ -64,21 +42,12 @@
 // }
 // getTextAndTagName();
 
-
-
-
-
 // 10
-function getInputFromUser() {
-var userInput=prompt("please enter input type");
-document.body.textContent=+"<input type="+userInput+"/>"
-}
-getInputFromUser()
-
-
-
-
-
+// function getInputFromUser() {
+// var userInput=prompt("please enter input type");
+// document.write("<input type="+userInput+"/>");
+// }
+// getInputFromUser()
 
 // 11
 // function mySome(text, group) {
@@ -89,11 +58,6 @@ getInputFromUser()
 // }
 // mySome("eldad","batel")
 
-
-
-
-
-
 // 12
 // function getP() {
 //   var myP =document.getElementsByTagName("p")
@@ -103,11 +67,6 @@ getInputFromUser()
 // }
 // getP()
 
-
-
-
-
-
 // 13
 // function userInfo() {
 //  var userIn={
@@ -115,17 +74,12 @@ getInputFromUser()
 //    lastName:prompt("please enter last name"),
 //    age:prompt("please enter your age")
 //   }
-//   console.log(userIn)
+//   document.write(userIn.name+" "+userIn.lastName+" "+userIn.age+"<br>")
 //  if(userIn.age > 18){
-// }
-// alert("you are over 18.");
+//  document.write("<input type="+"/>");
+//  }
 // }
 // userInfo()
-
-
-
-
-
 
 // 14
 // function getMovie() {
@@ -133,10 +87,7 @@ getInputFromUser()
 //     name: prompt("whats the name of the movie?"),
 //     numOfViews: prompt("how many views does the movie have?"),
 //     year: prompt("what year the movie was realesed?"),
-//     pic: prompt("pic of the movie"),
-//   };
-//   var pict = {
-//     src: movie.pic
+//     pic: prompt("pic of the movie")
 //   };
 //   document.write(
 //     "<h1>" +
@@ -148,14 +99,11 @@ getInputFromUser()
 //       "<h3>" +
 //       movie.year +
 //       "</h3>" +
-//       "<img src= pict.src >"
+//       "<img src="+movie.pic+">"
+
 //   );
 // }
 // getMovie();
-
-
-
-
 
 // 15
 // var worker = {
@@ -168,20 +116,17 @@ getInputFromUser()
 //   "<h1>" +
 //     worker.privateName +
 //     "</h1>" +
-//     "/" +
+//     " " +
 //     "<mark>" +
 //     worker.lastName +
 //     "</mark>" +
-//     "/" +
+//     " " +
 //     "<i>" +
 //     worker.email +
 //     "</i>" +
-//     "/" +
+//     " " +
 //     worker.section
 // );
-
-
-
 
 // 16
 // function printConstructorBuilding() {
@@ -204,14 +149,48 @@ getInputFromUser()
 //         " " +
 //         "<strong>" +
 //         bulding.numOfFloors +
-//         " " +
+//         " " +"floors"+
 //         "</strong>" +
 //         " "+
 //         "<span>" +
 //         bulding.numOfApa +
-//         " " +
+//         "apartments" +
 //         "</span>"
 //     );
 //   }
 // }
 // printConstructorBuilding();
+
+// 17
+// function printStores() {
+//   numOfUser = prompt("please enter random number.");
+//   for (var i = 0; i < numOfUser; i++) {
+//     var store = {
+//       nameOfStore: prompt("whats the name of the store."),
+//       addres: prompt("please enter an addres."),
+//       numOfSection: prompt("please enter section."),
+//       numOfWorkers: prompt("please enter number of workers.")
+//     };
+//     if (store.numOfWorkers > 10) {
+//       document.body.innerHTML =
+//       "<span>" +
+//       store.nameOfStore +
+//       "</span>" +
+//       " " +
+//       "<h6>" +
+//       store.addres +
+//       "</h6>" +
+//       " " +
+//       "<strong>" +
+//       store.numOfSection +
+//       "</strong>" +
+//       " " +
+//       "<i>" +
+//       store.numOfWorkers +
+//       "</i>";
+//     }
+//   }
+// }
+// printStores()
+
+// 18
