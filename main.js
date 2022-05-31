@@ -216,7 +216,7 @@
 // }
 // printSome()
 
-// 20
+// 20 etgar
 // function myDr() {
 //   var numOfUser = prompt("please enter randon num.");
 //   var mySome = document.getElementById("myTable");
@@ -232,3 +232,4 @@
 //   }
 // }
 // myDr()
+
