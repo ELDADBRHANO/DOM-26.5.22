@@ -162,6 +162,7 @@
 // printConstructorBuilding();
 
 // 17
+// var counter=0
 // function printStores() {
 //   numOfUser = prompt("please enter random number.");
 //   for (var i = 0; i < numOfUser; i++) {
@@ -188,6 +189,7 @@
 //       "<i>" +
 //       store.numOfWorkers +
 //       "</i>";
+//       counter++
 //     }
 //   }
 // }
@@ -195,9 +197,9 @@
 
 // 18
 // function some(){
-//   if()
+//   console.log(counter);
 // }
-
+// some()
 // 19
 // function printSome() {
 //   var numOfUser=+prompt("please enter random num.");
@@ -215,18 +217,18 @@
 // printSome()
 
 // 20
-function myDr() {
-  var numOfUser = prompt("please enter randon num.");
-  var mySome = document.getElementById("myTable");
-  for (var i = 0; i < numOfUser; i++) {
-    var dr = {
-      fullName: prompt("please enter your full name dr."),
-      internship: prompt("please enter your internship."),
-      phone: prompt("please enter your phone number."),
-      availeble: prompt("please enter when are you availeble."),
-      email: prompt("please enter your email."),
-    };
-    mySome.innerHTML +="<tr>"+"<td>"+dr.fullName+"</td>"+"<td>"+dr.internship+"</td>"+"<td>"+dr.phone +"</td>"+"<td>"+dr.availeble+"</td>"+"<td>"+dr.email+"</td>"+"</tr>";
-  }
-}
-myDr()
+// function myDr() {
+//   var numOfUser = prompt("please enter randon num.");
+//   var mySome = document.getElementById("myTable");
+//   for (var i = 0; i < numOfUser; i++) {
+//     var dr = {
+//       fullName: prompt("please enter your full name dr."),
+//       internship: prompt("please enter your internship."),
+//       phone: prompt("please enter your phone number."),
+//       availeble: prompt("please enter when are you availeble."),
+//       email: prompt("please enter your email."),
+//     };
+//     mySome.innerHTML +="<tr>"+"<td>"+dr.fullName+"</td>"+"<td>"+dr.internship+"</td>"+"<td>"+dr.phone +"</td>"+"<td>"+dr.availeble+"</td>"+"<td>"+dr.email+"</td>"+"</tr>";
+//   }
+// }
+// myDr()
